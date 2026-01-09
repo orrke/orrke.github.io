@@ -94,6 +94,8 @@ section {
 }
 
 .section-content {
+    display: flex;
+    flex-direction: column;
     max-width: 1000px;
     text-align: center;
 }
@@ -279,4 +281,10 @@ body {
 .indicator-dot.active {
     background: white;
     transform: scale(1.5);
+}
+
+.name {
+    font-size: 7rem;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
