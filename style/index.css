@@ -288,3 +288,30 @@ body {
     margin-bottom: 40px;
     font-weight: bold;
 }
+
+@media (max-width: 700px) {
+    .lang-buttons > span {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    .name {
+        font-size: 18.5vw;
+    }
+
+    .nav-links {
+        width: 80vw;
+        gap: 1vw;
+    }
+
+    .nav-link {
+
+        visibility: hidden;
+    }
+
+    .nav-link.active {
+        position: absolute;
+        visibility: visible;
+    }
+}
