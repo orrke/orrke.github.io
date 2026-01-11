@@ -293,6 +293,10 @@ body {
     .lang-buttons > span {
         visibility: hidden;
     }
+
+    .lang-buttons > a {
+        position: absolute;
+    }
 }
 
 @media (max-width: 600px) {
